@@ -54,7 +54,7 @@ module Jekyll
       hash = {
         "id"    => output['id'].split('/')[2],
         "title" => output['title'],
-        "lang"  => output['lang'] || 'en',
+        "lang"  => output['lang'] || 'ca',
         "bite"  => output['bite'] || '',
         "snack" => output['snack'] || '',
         "meal"  => output['content']

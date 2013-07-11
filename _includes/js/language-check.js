@@ -4,7 +4,7 @@ $(function() {
         var url = window.location.href.replace('cuidadodesalud.gov','healthcare.gov').replace('/es/','/');
         $('.span1 a.btn-mini.btn-lang, #header .lang').removeClass('nodisplay').attr('href', url);
     }
-    if ('{{page.lang}}' == 'en') {
+    if ('{{page.lang}}' == 'ca') {
         if ('{{site.baseurl}}'.length > 0) {
             var url = window.location.href.replace('{{site.baseurl}}','{{site.baseurl}}/es');
         } else {
@@ -43,7 +43,7 @@ $(function() {
             });
         }
 
-        if('{{page.lang}}' == 'en'){
+        if('{{page.lang}}' == 'ca'){
             if ('{{site.baseurl}}'.length > 0) {
                 var url = window.location.href.replace('{{site.baseurl}}','{{site.baseurl}}/es');
             } else {

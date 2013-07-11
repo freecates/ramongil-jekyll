@@ -1,7 +1,7 @@
 {% assign qa = site.tags['quick-answers'][0] %}
 
 var lang = '';
-{% if page.lang != 'en' %}
+{% if page.lang != 'ca' %}
 lang = '{{page.lang}}/';
 {% endif %}
 
@@ -558,7 +558,7 @@ $(function() {
             langSwitch = $('.btn-lang').attr('data-lang'),
             langUrl = '';
             
-        if (langSwitch != 'en') {
+        if (langSwitch != 'ca') {
             langUrl = langSwitch + '/';
         }
         

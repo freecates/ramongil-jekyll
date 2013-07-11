@@ -2,4 +2,4 @@
 User-agent: *
 # Directories
 Disallow: /api/
-Sitemap: http://www.artinpocket.cat/sitemap.xml
+Sitemap: http://www.ramongil.cat/sitemap.xml

@@ -22,7 +22,7 @@ module Jekyll
           lang = 'es'
           dir = '/es/blog'
         else
-          lang = 'en'
+          lang = 'ca'
           dir = '/blog'
         end
         title = tag.data['title']

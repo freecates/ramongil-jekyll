@@ -4,9 +4,9 @@ app.sidebar = queue(1);
 app.sidebarData = [];
 
 app.topics = {
-    'en': {
+    'ca': {
         {% for topic in site.tags.topic %}
-        {% if topic.lang == 'en' %}
+        {% if topic.lang == 'ca' %}
         '{{topic.url | remove:"/"}}': '{{topic.title | escape}}'{% unless forloop.last %},{% endunless %}
         {% endif %}
         {% endfor %}
