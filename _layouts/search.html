@@ -75,11 +75,11 @@ if(isMobile.any()){
     $("<hr class='dark'>").insertAfter('.search-results');
 }
 
-{% if page.lang == 'en' %}
+{% if page.lang == 'ca' %}
   {% assign otherLang = 'es' %}
   {% assign collLang = '_es' %}
 {% else %}
-  {% assign otherLang = 'en' %}
+  {% assign otherLang = 'ca' %}
   {% assign collLang = '' %}
 {% endif %}
 

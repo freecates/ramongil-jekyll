@@ -8,7 +8,7 @@ class: widget
 
 <div id='widget' class='{{page.widget}}'>
   <div class='logo-header'>
-    <img src='{{site.baseurl}}/images/logo-HIM{% if page.lang != "en" %}-{{page.lang}}{% endif %}.jpg' alt='{{w.title.[page.lang]}}' />
+    <img src='{{site.baseurl}}/images/logo-HIM{% if page.lang != "ca" %}-{{page.lang}}{% endif %}.jpg' alt='{{w.title.[page.lang]}}' />
   </div>
   <div id='content'>
     <h3 class='intro'>{{w.[page.widget].intro.[page.lang]}}</h3>
@@ -32,7 +32,7 @@ class: widget
         <input title='{{u.[page.lang].utility.altemailsignup}}' name='signup' type='text' placeholder='{{w.[page.widget].input.[page.lang]}}'>
       </fieldset>
       {% endif %}
-      <a type='button' class='btn btn-large btn-green btn-widget' data-lang='{{page.lang}}' href='{{site.baseurl}}{% if page.lang != "en" %}/{{page.lang}}{% endif %}/{{page.widget}}/'>{{w.[page.widget].button.[page.lang]}}</a>
+      <a type='button' class='btn btn-large btn-green btn-widget' data-lang='{{page.lang}}' href='{{site.baseurl}}{% if page.lang != "ca" %}/{{page.lang}}{% endif %}/{{page.widget}}/'>{{w.[page.widget].button.[page.lang]}}</a>
     </form>
   </div>
 </div>
@@ -57,10 +57,10 @@ class: widget
     $('input[name="audience"]').on('click',function(e) {
         qatValues.audience = $(e.target).val();
         $.cookie('quickAnswers', qatValues, { expires: 30, path: '/' });
-        $('a.btn-widget').attr('href','{{site.url}}{% if page.lang != "en" %}/{{page.lang}}{% endif %}/quick-answers/#' + qatValues.audience + '-2');
+        $('a.btn-widget').attr('href','{{site.url}}{% if page.lang != "ca" %}/{{page.lang}}{% endif %}/quick-answers/#' + qatValues.audience + '-2');
     });
     
     $('input[name="signup"]').on('keyup', function(e) {
-        $('a.btn-widget').attr('href','{{site.url}}{% if page.lang != "en" %}/{{page.lang}}{% endif %}/subscribe/#address=' + $(e.target).val());
+        $('a.btn-widget').attr('href','{{site.url}}{% if page.lang != "ca" %}/{{page.lang}}{% endif %}/subscribe/#address=' + $(e.target).val());
     });
 </script>
