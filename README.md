@@ -1,6 +1,6 @@
-# HealthCare.gov-Open-Source-Release
+# Artinpokcet.cat a partir de HealthCare.gov-Open-Source-Release
 
-This project includes the source code and content for the healthcare.gov website. For more information, please visit https://www.healthcare.gov/developers
+Aquest projecte parteix de desenvolupament fet per Development Seeds per a Healthcare.gov. Per a més informació del punt de partida, aneu a https://www.healthcare.gov/developers
 
 ## Local Installation Requirements
 
