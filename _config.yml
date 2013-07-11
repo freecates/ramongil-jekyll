@@ -1,7 +1,7 @@
 # Sitewide configuration settings. Set `title` to the site title, which
 # will be appended to the URL following {{page.title}} |
 
-title: HealthCare.gov
+title: Artinpocket, The New Social Network About Art
 auto: true
 server: true
 baseurl: 
@@ -14,7 +14,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 languages: &languages
-  - name: 'English'
+  - name: 'Català'
+    value: 'ca'
+    - name: 'English'
     value: 'en'
   - name: 'Español'
     value: 'es'
@@ -28,9 +30,9 @@ status: &status
     value: 'insured'
   - name: 'Not Insured'
     value: 'not-insured'
-siteurl: 'https://www.healthcare.gov'
-searchurl: 'https://search.healthcare.gov'
-searchproxy: 'https://www.healthcare.gov'
+siteurl: 'http://www.artinpocket.cat'
+searchurl: 'https://search.artinpocket.cat'
+searchproxy: 'http://www.artinpocket.cat'
  
 # Custom Collections
 # Creates a globally accessible list of posts based on these specified metadata variables
@@ -71,10 +73,10 @@ jekyll_sort:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "https://www.healthcare.gov/"
-  relativeLinks: "https://www.healthcare.gov/resources/prose/relativeLinks.jsonp"
+  siteurl: "http://www.artinpocket.cat"
+  relativeLinks: "http://www.artinpocket.cat/resources/prose/relativeLinks.jsonp"
   site:
-    tags: "https://www.healthcare.gov/api/tags.jsonp"
+    tags: "http://www.artinpocket.cat/api/tags.jsonp"
   metadata:
     _posts/articles:
       - name: "title"
@@ -105,10 +107,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Selecciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "layout"
         field:
           element: "select"
@@ -142,12 +144,12 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "https://www.healthcare.gov/resources/topics.jsonp?callback=topics"
+          options: "http://www.artinpocket.cat/resources/topics.jsonp?callback=topics"
       - name: "questions"
         field:
           element: "multiselect"
           label: "Related questions"
-          options: "https://www.healthcare.gov/resources/questions.jsonp?callback=questions"
+          options: "http://www.artinpocket.cat/resources/questions.jsonp?callback=questions"
       - name: "question-header"
         field:
           element: "text"
@@ -158,7 +160,7 @@ prose:
         field:
           element: "multiselect"
           label: "Related"
-          options: "https://www.healthcare.gov/resources/articles.jsonp?callback=articles"
+          options: "http://www.artinpocket.cat/resources/articles.jsonp?callback=articles"
       - name: "audience"
         field:
           element: "multiselect"
@@ -237,10 +239,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Selecciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "layout"
         field:
           element: "select"
@@ -273,10 +275,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Selecciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "tags"
         field:
           element: "hidden"
@@ -291,10 +293,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Selecciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "tags"
         field:
           element: "select"
@@ -332,10 +334,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Selecciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "layout"
         field:
           element: "select"
@@ -384,10 +386,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Seleccciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "seo-keywords"
         field:
           element: "text"
@@ -410,7 +412,7 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "https://www.healthcare.gov/resources/topics.jsonp?callback=topics"
+          options: "http://www.artinpocket.cat/resources/topics.jsonp?callback=topics"
     _posts/help:
       - name: "title"
         field:
@@ -420,10 +422,10 @@ prose:
       - name: "lang"
         field:
           element: "select"
-          label: "Select language"
-          placeholder: "English"
+          label: "Seleccciona l'idioma"
+          placeholder: "Català"
           options: *languages
-          selected: "en"
+          selected: "ca"
       - name: "bite"
         field:
           element: "text"
