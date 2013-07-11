@@ -22,8 +22,8 @@
       "original_value": "UTF-8"
     },
     "ulang": {
-      "value": "en",
-      "original_value": "en"
+      "value": 'ca',
+      "original_value": 'ca'
     },
     "ip": {
       "value": "158.73.65.73",
@@ -65,7 +65,7 @@
     "CID": "rvOECHo_v2oJ"
   }},
     
-    "LANG": "en",
+    "LANG": 'ca',
     "MT": [
     { "viewport": "width=device-width, initial-scale=1.0" },
     { "content-type": "article" },
@@ -103,7 +103,7 @@
     "CID": "cve-CFnrtD4J"
   }},
     
-    "LANG": "en",
+    "LANG": 'ca',
     "MT": [
     { "viewport": "width=device-width, initial-scale=1.0" },
     { "content-type": "index" }],
@@ -121,7 +121,7 @@
     "CID": "S6m4mQ1eSdYJ"
   }},
     
-    "LANG": "en",
+    "LANG": 'ca',
     "MT": [
     { "viewport": "width=device-width, initial-scale=1.0" },
     { "content-type": "index" }],
@@ -139,7 +139,7 @@
     "CID": "m_ypac2uOxIJ"
   }},
     
-    "LANG": "en",
+    "LANG": 'ca',
     "MT": [
     { "viewport": "width=device-width, initial-scale=1.0" },
     { "content-type": "index" }],
@@ -157,7 +157,7 @@
     "CID": "rvOECHo_v2oJ"
   }},
     
-    "LANG": "en",
+    "LANG": 'ca',
     "MT": [
     { "viewport": "width=device-width, initial-scale=1.0" },
     { "content-type": "article" },

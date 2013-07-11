@@ -7,7 +7,7 @@ experience: learn
 <div class='basic-container search'>
   <div class='row-fluid'>
     <h1 class='span3 header2'>{{t.[page.lang].search.title}}</h1>
-    <form class='span9' name='gsearch' method='get' action='{{site.baseurl}}{% unless page.lang == "en" %}/{{page.lang}}{% endunless %}/search'>
+    <form class='span9' name='gsearch' method='get' action='{{site.baseurl}}{% unless page.lang == "ca" %}/{{page.lang}}{% endunless %}/search'>
       <input title='{{u.[page.lang].utility.altsearch}}' id='page-search' class='nav-search span12 pull-right' placeholder='{{t.[page.lang].search.title}}' name='q' type='search' autocomplete='off'>
       {% include searchoptions.html %}
     </form>
