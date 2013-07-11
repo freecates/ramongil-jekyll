@@ -16,7 +16,7 @@ exclude:
 languages: &languages
   - name: 'Català'
     value: 'ca'
-    - name: 'English'
+  - name: 'English'
     value: 'en'
   - name: 'Español'
     value: 'es'
