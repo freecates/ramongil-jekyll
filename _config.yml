@@ -30,9 +30,9 @@ status: &status
     value: 'insured'
   - name: 'Not Insured'
     value: 'not-insured'
-siteurl: 'http://freecates.github.io/ramongil-jekyll'
-searchurl: 'https://http://freecates.github.io/ramongil-jekyll'
-searchproxy: 'http://freecates.github.io/ramongil-jekyll'
+siteurl: 'http://freecates.github.io/ramongil-jekyll/'
+searchurl: 'https://http://freecates.github.io/ramongil-jekyll/'
+searchproxy: 'http://freecates.github.io/ramongil-jekyll/'
  
 # Custom Collections
 # Creates a globally accessible list of posts based on these specified metadata variables
@@ -73,7 +73,7 @@ jekyll_sort:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "http://freecates.github.io/ramongil-jekyll"
+  siteurl: "http://freecates.github.io/ramongil-jekyll/"
   relativeLinks: "http://freecates.github.io/ramongil-jekyll/resources/prose/relativeLinks.jsonp"
   site:
     tags: "http://freecates.github.io/ramongil-jekyll/api/tags.jsonp"
