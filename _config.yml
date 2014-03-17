@@ -73,10 +73,10 @@ jekyll_sort:
 prose:
   media: 'assets'
   rooturl: "_posts"
-  siteurl: "http://www.ramongil.cat"
-  relativeLinks: "http://www.ramongil.cat/resources/prose/relativeLinks.jsonp"
+  siteurl: "http://freecates.github.io/ramongil-jekyll/"
+  relativeLinks: "http://freecates.github.io/ramongil-jekyll/resources/prose/relativeLinks.jsonp"
   site:
-    tags: "http://www.ramongil.cat/api/tags.jsonp"
+    tags: "http://freecates.github.io/ramongil-jekyll/api/tags.jsonp"
   metadata:
     _posts/articles:
       - name: "title"
@@ -144,12 +144,12 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "http://www.ramongil.cat/resources/topics.jsonp?callback=topics"
+          options: "http://freecates.github.io/ramongil-jekyll/resources/topics.jsonp?callback=topics"
       - name: "questions"
         field:
           element: "multiselect"
           label: "Related questions"
-          options: "http://www.ramongil.cat/resources/questions.jsonp?callback=questions"
+          options: "http://freecates.github.io/ramongil-jekyll//resources/questions.jsonp?callback=questions"
       - name: "question-header"
         field:
           element: "text"
@@ -160,7 +160,7 @@ prose:
         field:
           element: "multiselect"
           label: "Related"
-          options: "http://www.ramongil.cat/resources/articles.jsonp?callback=articles"
+          options: "http://freecates.github.io/ramongil-jekyll/resources/articles.jsonp?callback=articles"
       - name: "audience"
         field:
           element: "multiselect"
@@ -412,7 +412,7 @@ prose:
         field:
           element: "multiselect"
           label: "Topics"
-          options: "http://www.ramongil.cat/resources/topics.jsonp?callback=topics"
+          options: "http://freecates.github.io/ramongil-jekyll/resources/topics.jsonp?callback=topics"
     _posts/help:
       - name: "title"
         field:
